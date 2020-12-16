@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    
+    "baseUrl": "http://demo.automationtesting.in/Register.html",
+    "viewportHeight": 768,
+    "viewportWidth": 1366,
+    "defaultCommandTimeOut": 10000,
+
+    "video": true,
+    "videoUploadOnPasses": true,
+    "videoCompression": 32,
+
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "overwrite": false
+    },
+
+    "experimentalSourceRewriting": true
+}
