@@ -22,7 +22,14 @@ class CadastroPage {
         cy.get(cadElements.clicarHobbies()).check('Movies')
     }
 
+    clicarLanguage(){
+        cy.get(cadElements.clicarLanguage()).click()
+    }
+
     clicarSelect(){
+        cy.get(cadElements.selecionarLanguage()).click()
+        cy.get(cadElements.selecionarLanguage2()).click()
+        cy.get(cadElements.clicarVazio()).click()
         cy.get(cadElements.selecionarSkill()).select('Javascript')
         cy.get(cadElements.selecionarCountries()).select('Brazil')
         cy.get(cadElements.selecionarCountry()).select('Netherlands', { force: true })

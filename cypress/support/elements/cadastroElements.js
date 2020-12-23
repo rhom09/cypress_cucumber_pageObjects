@@ -5,11 +5,15 @@ class CadastroElements {
     preencherEmail = () => {return 'input[ng-model="EmailAdress"]'}
     preencherTelefone = () => {return 'input[ng-model="Phone"]'}
 
-    // CheckBox
+    // CheckBox e Clicks
     clicarSexo = () => {return 'input[value="Male"]'}
     clicarHobbies = () => {return 'input[type="checkbox"]'}
+    clicarLanguage = () => {return '#msdd'}
+    clicarVazio = () => {return '#section > .container > .row'}
 
     // select e select2
+    selecionarLanguage = () => {return ':nth-child(8) > .ui-corner-all'}
+    selecionarLanguage2 = () => {return ':nth-child(1) > .ui-corner-all'}
     selecionarSkill = () => {return '#Skills'}
     selecionarCountries = () => {return '#countries'}
     selecionarCountry = () => {return '#country'}

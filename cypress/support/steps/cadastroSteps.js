@@ -11,6 +11,7 @@ Given("que acesso o site de registro", () =>{
 When("preencho todos os campos", () =>{
     cadPage.preencherCampos()
     cadPage.clicarCheckbox()
+    cadPage.clicarLanguage()
     cadPage.clicarSelect()
     cadPage.preencherPassword()
 })
